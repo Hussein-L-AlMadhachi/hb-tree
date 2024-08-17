@@ -7,6 +7,18 @@ This is my implementation of a silly algorithm that I came up with (although I'm
 
 When I read about different implementations of key-value data structures, I wasn't satisfied with how each algorithm worked. whether it was a type of hashtable that needed to be resized (which requires copying old data to a newly allocated hash table and rehashing) or binary trees that needed to be balanced recursively in some cases.
 
+## How to use
+On Linux, you need GNU Make and gcc
+clone the repo then install it with: 
+```bash
+git clone https://github.com/Hussein-L-AlMadhachi/hb-tree
+cd hb-tree
+make
+```
+
+If you're using windows just compile `src/hb_tree.c` and `test/hb_test.c` with any C compiler
+
+
 ## How It Works
 ### Inserting New Nodes
 1. Hash the key of your key-value pair and call this hash `H`.
