@@ -5,7 +5,7 @@ version 0.0.1
 ## Introduction
 This is my implementation of a silly algorithm that I came up with (although I'm not sure if I'm the first to come up with it) to satisfy my criteria of what a balanced binary tree should look like.
 
-When I read about different implementations of key-value data structures, I wasn't satisfied with how each algorithm worked—whether it was a type of hashtable that needed to be resized (which requires copying old data to a newly allocated hash table and rehashing) or binary trees that needed to be balanced recursively in some cases.
+When I read about different implementations of key-value data structures, I wasn't satisfied with how each algorithm worked. whether it was a type of hashtable that needed to be resized (which requires copying old data to a newly allocated hash table and rehashing) or binary trees that needed to be balanced recursively in some cases.
 
 ## How It Works
 ### Inserting New Nodes
