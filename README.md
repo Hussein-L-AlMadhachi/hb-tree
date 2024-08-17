@@ -22,7 +22,6 @@ make
 
 If you're using windows just compile `src/hb_tree.c` and `test/hb_test.c` with any C compiler
 
-
 ## How It Works
 
 ### Inserting New Nodes
