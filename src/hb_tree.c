@@ -14,12 +14,6 @@
 typedef int bool;
 
 
-/**
- *	CONVETION:
- *	"LL" means linked list
- *
-**/
-
 
 
 void hb_init_tree ( HB_Tree * tree )
